@@ -187,13 +187,16 @@ button:hover{
   grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
   gap:20px;
 }
-
 .project-card{
   background:#111;
   padding:40px;
   border-radius:20px;
   text-align:center;
   transition:0.3s;
+
+  text-decoration:none;   /* important */
+  color:white;            /* text white */
+  display:block;
 }
 
 /* project hover */
@@ -201,6 +204,7 @@ button:hover{
   transform:translateY(-8px);
   box-shadow:0 10px 25px rgba(0,0,0,0.6);
 }
+
 
 /* ================= CONTACT ================= */
 
