@@ -221,6 +221,27 @@ button:hover{
 .footer-links a:hover{
   color:#fff;
 }
+/* PREMIUM UI UPGRADE */
+
+.hero-card,
+.card,
+.project-card,
+.project-container{
+  background:rgba(255,255,255,0.04);
+  backdrop-filter:blur(15px);
+  border:1px solid rgba(255,255,255,0.08);
+}
+
+/* stronger glow */
+.project-card:hover,
+.card:hover{
+  box-shadow:0 0 25px rgba(212,175,55,0.25);
+}
+
+/* headings glow */
+h2, h3{
+  text-shadow:0 0 10px rgba(212,175,55,0.3);
+}
 
 /* ================= PROJECT PAGE ================= */
 
