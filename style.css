@@ -275,3 +275,37 @@ iframe{
   padding:18px 40px;
   font-size:16px;
 }
+/* MOBILE RESPONSIVE */
+
+@media(max-width:768px){
+
+  nav{
+    flex-direction:column;
+    gap:15px;
+  }
+
+  nav ul{
+    gap:20px;
+  }
+
+  .hero-card{
+    padding:50px 20px;
+  }
+
+  .hero-card h1{
+    font-size:32px;
+  }
+
+  .project-container{
+    padding:30px 20px;
+  }
+
+  iframe{
+    height:250px;
+  }
+
+  button{
+    width:100%;
+  }
+
+}
