@@ -209,27 +209,24 @@ button:hover{
   margin-bottom:20px;
   line-height:1.6;
 }
+.project-grid a{
+  text-decoration:none;   /* blue underline hatane ke liye */
+  color:inherit;
+}
+
 .project-card{
   background:#111;
   padding:40px;
   border-radius:20px;
   text-align:center;
   transition:0.3s;
-
-  text-decoration:none;  /* underline hatane ke liye */
-  color:white;           /* text white */
   display:block;
   font-size:18px;
-}
-
-/* span styling */
-.project-card span{
-  display:block;
+  border:1px solid rgba(255,255,255,0.08);
 }
 
 /* hover */
 .project-card:hover{
-  border:1px solid rgba(255,255,255,0.08);
   transform:translateY(-8px);
   box-shadow:0 10px 25px rgba(0,0,0,0.6);
 }
