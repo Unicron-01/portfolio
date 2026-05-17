@@ -242,6 +242,18 @@ button:hover{
 h2, h3{
   text-shadow:0 0 10px rgba(212,175,55,0.3);
 }
+/* FADE-IN ANIMATION */
+
+.fade-in{
+  opacity:0;
+  transform:translateY(30px);
+  transition:all 0.8s ease;
+}
+
+.fade-in.show{
+  opacity:1;
+  transform:translateY(0);
+}
 
 /* ================= PROJECT PAGE ================= */
 
