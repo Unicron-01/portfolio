@@ -1,22 +1,9 @@
 function showMessage(){
-
   alert("Email: raj385039@gmail.com");
-
 }
-// SCROLL ANIMATION
 
-const elements = document.querySelectorAll('.fade-in');
+/* EMAILJS */
 
-window.addEventListener('scroll', () => {
-  elements.forEach(el => {
-    const position = el.getBoundingClientRect().top;
-    const screenHeight = window.innerHeight;
-
-    if(position < screenHeight - 100){
-      el.classList.add('show');
-    }
-  });
-});
 (function(){
   emailjs.init("YOUR_PUBLIC_KEY");
 })();
@@ -31,9 +18,13 @@ document.getElementById("contact-form")
     "YOUR_TEMPLATE_ID",
     this
   ).then(function(){
-    alert("Message Sent ✅");
-  }, function(){
+
+    alert("Message Sent Successfully ✅");
+
+  }, function(error){
+
     alert("Failed ❌");
+
   });
 
 });
