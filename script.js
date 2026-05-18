@@ -5,7 +5,7 @@ function showMessage(){
 /* EMAILJS */
 
 (function(){
-  emailjs.init("YOUR_PUBLIC_KEY");
+  emailjs.init("fCb09Jcm7PyeEls5d");
 })();
 
 document.getElementById("contact-form")
@@ -14,8 +14,8 @@ document.getElementById("contact-form")
   e.preventDefault();
 
   emailjs.sendForm(
-    "YOUR_SERVICE_ID",
-    "YOUR_TEMPLATE_ID",
+     "service_kce6jkn",
+    "template_rmkmf56",
     this
   ).then(function(){
 
