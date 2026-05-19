@@ -170,13 +170,23 @@ button:hover{
   text-shadow:0 0 10px 
 }
 
-/* ================= PROJECT CARDS FINAL ================= */
+/* ================= PROJECTS ================= */
+
+.projects{
+  padding:80px 8%;
+}
+
+.projects h2{
+  font-size:32px;
+  margin-bottom:40px;
+  color:#d4af37;
+  text-shadow:0 0 15px rgba(212,175,55,0.3);
+}
 
 .project-grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
   gap:30px;
-  margin-top:40px;
 }
 
 .project-grid a{
